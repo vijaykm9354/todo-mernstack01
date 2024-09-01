@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 455px;
+    margin: auto;
+    padding: 3rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.top{
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+input{
+    border: none;
+    outline: none;
+    width: 500px;
+    padding: 0 0.5rem;
+    border-bottom: 1px solid #9f7373;
+}
+
+.add{
+    background-color: #12a2af;
+    color: #ffffff;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+    border: black;
+}
+
+.item{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #5d3556;
+    color: #ffffff;
+    padding: 1.5rem 3rem;
+    border-radius: 5px;
+}
+
+.icons{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    right: 20px;
+    display: flex;
+    gap:1rem;
+}
+
+i{
+    cursor: pointer;
+}
